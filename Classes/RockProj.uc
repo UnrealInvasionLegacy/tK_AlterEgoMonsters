@@ -1,0 +1,32 @@
+class RockProj extends KrallBolt;
+
+defaultproperties
+{
+     Speed=1250.000000
+     MaxSpeed=1275.000000
+     Damage=25.000000
+     MomentumTransfer=25000.000000
+     MyDamageType=Class'tk_AlterEgoMonsters.DamTypeRocka'
+     ExplosionDecal=Class'XEffects.LinkBoltScorch'
+     LightType=LT_Steady
+     LightEffect=LE_QuadraticNonIncidence
+     LightHue=40
+     LightSaturation=100
+     LightBrightness=190.000000
+     LightRadius=3.000000
+     DrawType=DT_Sprite
+     bDynamicLight=True
+     AmbientSound=Sound'WeaponSounds.LinkGun.LinkGunProjectile'
+     LifeSpan=8.000000
+     Texture=Texture'tk_AlterEgoMonsters.Krall.AeRockafellaProj'
+     DrawScale=0.200000
+     Skins(0)=Texture'tk_AlterEgoMonsters.Krall.AeRockafellaProj'
+     AmbientGlow=217
+     Style=STY_Translucent
+     SoundVolume=255
+     SoundRadius=50.000000
+     RotationRate=(Roll=80000)
+     ForceType=FT_Constant
+     ForceRadius=100.000000
+     ForceScale=5.000000
+}
